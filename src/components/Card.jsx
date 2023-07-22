@@ -3,7 +3,7 @@ import React from 'react';
 export default function Card(props) {
   return (
     <div>
-      <div className="card info">
+      <div className="card">
         <div className="top">
           <h2 className="name">{props.name}</h2>
           <img
@@ -13,8 +13,8 @@ export default function Card(props) {
           />
         </div>
         <div className="bottom">
-          <p>{props.tel}</p>
-          <p>{props.email}</p>
+          <p className="info">{props.tel}</p>
+          <p className="info">{props.email}</p>
         </div>
       </div>
     </div>
