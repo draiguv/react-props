@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './components/App.jsx'
 
@@ -18,4 +18,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 ////so the Card component can be reused for other contacts.
 ////4. Import the contacts.js file to create card components.
 ////5. Add avatar component
-//6. Add detail component
+////6. Add detail component
