@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './Card.jsx'
 import contacts from '../data/contacts.js'
 
-function createCard(contact) {
+const createCard = contact => {
   return (
     <Card 
       key={contact.id}
