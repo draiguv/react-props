@@ -19,3 +19,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 ////4. Import the contacts.js file to create card components.
 ////5. Add avatar component
 ////6. Add detail component
+////7. Simplify Card rendering
+////8. Add component key as paragraph (react special prop)
