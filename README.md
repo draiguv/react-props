@@ -1,2 +1,6 @@
 # react-props
-React Props Training
+
+React training on:
+
+- React properties
+- Map data to components
